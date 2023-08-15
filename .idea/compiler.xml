@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-7003" />
+        <module name="consumer-feign-80" />
+        <module name="consumer-80" />
+        <module name="api" />
+        <module name="provider-8003" />
+        <module name="provider-8002" />
+        <module name="eureka-7001" />
+        <module name="provider-8001" />
+        <module name="eureka-7002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-feign-81" target="11" />
+      <module name="haha" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
