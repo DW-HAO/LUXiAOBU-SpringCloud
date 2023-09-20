@@ -16,6 +16,7 @@
         <module>provider-8002</module>
         <module>provider-8003</module>
         <module>consumer-feign-80</module>
+        <module>provider-hystrix-8001</module>
     </modules>
 
     <properties>

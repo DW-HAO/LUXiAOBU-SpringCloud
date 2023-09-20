@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-7003" />
+        <module name="provider-hystrix-8001" />
         <module name="consumer-feign-80" />
         <module name="consumer-80" />
         <module name="api" />
