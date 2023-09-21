@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.List;
 
 @Component(value = "service")
-//@FeignClient(value = "PROVIDER-DEPT")
+@FeignClient(value = "PROVIDER-DEPT", fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface DeptFeignService {
 
     @PostMapping("/dept/add")
