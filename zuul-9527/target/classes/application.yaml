@@ -1,0 +1,23 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: zuul
+eureka:
+  instance:
+    instance-id: zuul
+  client:
+    service-url:
+      defaultZone: "http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/,http://eureka7003:7003/eureka/"
+zuul:
+  routes:
+    # 自定义规则
+    lDept:
+      # 服务的名称
+      service-id: provider-dept
+      # 统一通过哪个路径访问
+      path: /lDept/**
+  # 不能使用服务名称访问
+  ignored-services: "*"
+  # 前缀
+  prefix: /luxiaobu
